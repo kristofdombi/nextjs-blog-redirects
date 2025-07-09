@@ -5,8 +5,8 @@
 # /external           https://google.com          301
 
 # Test 2
-/news/*                 /blog/:splat                    
-/blog/*                 /:splat                         
-/:section/:slug         /articles/:section/:slug        
-/jobs/specific          /careers/specific               
-/jobs/*                 /careers/:splat                 
+/jobs/specific          /careers/specific
+/jobs/*                 /careers/:splat
+/news/*                 /blog/:splat
+/blog/*                 /:splat
+/:section/:slug         /articles/:section/:slug
