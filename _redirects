@@ -1,4 +1,12 @@
-/old-page           /                           301
-/temp-move          /                           302
-/non-existent       /404.html                   404
-/external           https://google.com          301
+# Test 1
+# /old-page           /                           301
+# /temp-move          /                           302
+# /non-existent       /404.html                   404
+# /external           https://google.com          301
+
+# Test 2
+/news/*                 /blog/:splat                    
+/blog/*                 /:splat                         
+/:section/:slug         /articles/:section/:slug        
+/jobs/specific          /careers/specific               
+/jobs/*                 /careers/:splat                 
