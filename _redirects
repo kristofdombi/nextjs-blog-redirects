@@ -9,4 +9,4 @@
 /news/*                                     /blog/:splat
 /blog/*                                     /:splat
 /:section/:slug                             /articles/:section/:slug
-/:year/:day/:month                          /:year/:month/:day
+/2025/:day/:month                           /2025/:month/:day
