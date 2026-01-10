@@ -1,0 +1,12 @@
+/old-page                                   /                           301
+/temp-move                                  /                           302
+/non-existent                               /404.html                   404
+/external                                   https://google.com          301
+/articles section=:section slug=:slug       /articles/:section/:slug
+/blog slug=:slug                            /:slug
+/jobs/specific                              /careers/specific
+/jobs/*                                     /careers/:splat
+/news/*                                     /blog/:splat
+/blog/*                                     /:splat
+/:section/:slug                             /articles/:section/:slug
+/2025/:day/:month                           /2025/:month/:day
